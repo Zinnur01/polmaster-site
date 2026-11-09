@@ -36,6 +36,8 @@ nav.top a{color:var(--tx2);text-decoration:none}
 nav.top a:hover{color:var(--ac)}
 
 .hero{padding:44px 0 28px}
+.hero-icon{width:88px;height:88px;margin:0 0 18px;border-radius:20px;
+  box-shadow:0 6px 20px rgba(194,118,26,0.25)}
 .hero h1{font-size:2rem;line-height:1.2;margin:0 0 14px}
 .hero p.lead{font-size:1.1rem;color:var(--tx2);margin:0 0 22px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
@@ -46,8 +48,10 @@ nav.top a:hover{color:var(--ac)}
 
 .shots{display:flex;gap:12px;overflow-x:auto;padding:8px 0 18px;
   scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
-.shots figure{margin:0;flex:0 0 200px;scroll-snap-align:start}
-.shots img{border-radius:14px;border:1px solid var(--bd)}
+.shots figure{margin:0;flex:0 0 220px;scroll-snap-align:start}
+.shots img{border-radius:14px;border:1px solid var(--bd);background:#1A1714;aspect-ratio:9/16}
+.card p{margin:0 0 10px}
+.card p:last-child{margin-bottom:0}
 .shots figcaption{font-size:0.8rem;color:var(--tx3);margin-top:6px;line-height:1.35}
 
 section{padding:20px 0}
